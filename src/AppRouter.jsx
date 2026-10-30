@@ -6,6 +6,7 @@ import TermsAndConditions from './pages/terms-conditions/TermsAndConditions';
 import Support from './pages/Support/Support';
 import CommunityGuidelines from './pages/Community/CommunityGuidelines';
 import DeleteAccount from './pages/Account/DeleteAccount';
+import NotFound from './pages/Utility/NotFound';
 
 export default function AppRouter() {
   return (
@@ -19,6 +20,7 @@ export default function AppRouter() {
           <Route path="/delete-account" element={<DeleteAccount />} /> 
           <Route path="/community" element={<CommunityGuidelines />} />  
           <Route path="/support" element={<Support />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>

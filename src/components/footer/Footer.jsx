@@ -15,9 +15,9 @@ export default function Footer() {
          <div className="md:col-span-5 flex flex-col items-start">
             <Link to="/" className="flex items-center mb-3 cursor-pointer">
               <img
-                src="/ScrollSell.png"
+                src="/logoicon.png"
                 alt="ScrollSell logo"
-                className="w-28 h-auto object-contain"
+                className="w-10 h-auto object-contain"
               />
             </Link>
             <p className="text-gray-600 text-sm">
@@ -31,9 +31,10 @@ export default function Footer() {
               Product
             </h4>
             <nav className="flex flex-col gap-4 text-sm text-gray-800">
-              <a href="/" className="hover:text-[#0FA958] transition-colors">Home</a>
-              <a href="/community" className="hover:text-[#0FA958] transition-colors">Community guidelines</a>
-              <a href="/support" className="hover:text-[#0FA958] transition-colors">Help & support</a>
+              {/* Changed hover:text-[#0FA958] to hover:text-[#9B51E0] */}
+              <a href="/" className="hover:text-[#9B51E0] transition-colors">Home</a>
+              <a href="/community" className="hover:text-[#9B51E0] transition-colors">Community guidelines</a>
+              <a href="/support" className="hover:text-[#9B51E0] transition-colors">Help & support</a>
             </nav>
           </div>
 
@@ -43,9 +44,10 @@ export default function Footer() {
               Legal
             </h4>
             <nav className="flex flex-col gap-4 text-sm text-gray-800">
-              <a href="/privacy" className="hover:text-[#0FA958] transition-colors">Privacy policy</a>
-              <a href="/terms" className="hover:text-[#0FA958] transition-colors">Terms & conditions</a>
-              <a href="/delete-account" className="hover:text-[#0FA958] transition-colors">Delete your account</a>
+              {/* Changed hover:text-[#0FA958] to hover:text-[#9B51E0] */}
+              <a href="/privacy" className="hover:text-[#9B51E0] transition-colors">Privacy policy</a>
+              <a href="/terms" className="hover:text-[#9B51E0] transition-colors">Terms & conditions</a>
+              <a href="/delete-account" className="hover:text-[#9B51E0] transition-colors">Delete your account</a>
             </nav>
           </div>
 
@@ -62,7 +64,8 @@ export default function Footer() {
                 href="https://www.ixtminds.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium text-gray-500 hover:text-[#0FA958] transition-colors underline-offset-2 hover:underline"
+                // Changed hover:text-[#0FA958] to hover:text-[#9B51E0]
+                className="font-medium text-gray-500 hover:text-[#9B51E0] transition-colors underline-offset-2 hover:underline"
               >
                 IXT Minds
               </a>

@@ -1,12 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,500&display=swap");
 @import "tailwindcss";
 
-@layer base {
-	html {
-		font-family: 'Inter', sans-serif;
-	}
+
+:root {
+	--bg: #fdfcf9;
+	--bg-elevated: #ffffff;
+	--bg-subtle: #f3f2ed;
+
+	--ink: #0f0d09;
+	--ink-secondary: #5b584f;
+	--ink-muted: #7d7a71;
+
+	--primary: #6351ca;
+	--primary-hover: #4e3baa;
+	--primary-soft: #ebe9ff;
+
+	--line: #e6e4df;
+	--line-strong: #d3d1ca;
+
+	--success: #269e5f;
+	--error: #e3645e;
+	--warning: #e19b1b;
 }
 
-html {
-	scroll-behavior: smooth;
+html,
+body,
+#root {
+	height: 100%;
+}
+
+body {
+	background-color: var(--bg);
+	color: var(--ink);
+	font-family: "Inter", system-ui, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Selection highlight — pulls from brand, replaces the default blue */
+::selection {
+	background: rgba(99, 81, 202, 0.2);
+}
+
+/* Focus ring uses primary, not the browser's blue */
+:focus-visible {
+	outline: 2px solid var(--primary);
+	outline-offset: 2px;
 }
