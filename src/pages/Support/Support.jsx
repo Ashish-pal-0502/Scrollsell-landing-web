@@ -32,7 +32,7 @@
 //     },
 //     {
 //       question: "How do I delete my account?",
-//       answer: "You can delete your account directly from the app by going to Profile -> Settings -> Delete Account. If you need assistance, please email support@scrollsell.app."
+//       answer: "You can delete your account directly from the app by going to Profile -> Settings -> Delete Account. If you need assistance, please email support@scrollsell.in."
 //     }
 //   ];
 
@@ -60,7 +60,7 @@
 //           <span className="text-[10px] font-bold tracking-widest text-gray-400 uppercase block mb-3">
 //             Email
 //           </span>
-//           <p className="text-gray-900 font-medium mb-1">support@scrollsell.app</p>
+//           <p className="text-gray-900 font-medium mb-1">support@scrollsell.in</p>
 //           <p className="text-sm text-gray-500">Replies within 24 hours</p>
 //         </div>
 
@@ -181,7 +181,7 @@ export default function Support() {
     },
     {
       question: "How do I delete my account?",
-      answer: "You can delete your account directly from the app by going to Profile -> Settings -> Delete Account. If you need assistance, please email support@scrollsell.app."
+      answer: "You can delete your account directly from the app by going to Profile -> Settings -> Delete Account. If you need assistance, please email support@scrollsell.in."
     }
   ];
 
@@ -209,7 +209,7 @@ export default function Support() {
           <span className="text-[10px] font-bold tracking-widest text-gray-400 uppercase block mb-3">
             Email
           </span>
-          <p className="text-gray-900 font-medium mb-1">support@scrollsell.app</p>
+          <p className="text-gray-900 font-medium mb-1">support@scrollsell.in</p>
           <p className="text-sm text-gray-500">Replies within 24 hours</p>
         </div>
 

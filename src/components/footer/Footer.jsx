@@ -72,10 +72,10 @@ export default function Footer() {
             </span>
           </p>
           <a
-            href="mailto:support@scrollsell.app"
+            href="mailto:support@scrollsell.in"
             className="mt-4 md:mt-0 hover:text-gray-600 transition-colors"
           >
-            support@scrollsell.app
+            support@scrollsell.in
           </a>
         </div>
 
